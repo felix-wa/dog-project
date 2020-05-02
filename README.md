@@ -42,11 +42,11 @@ Besides the jupiter notebook, there are several other data structures used which
 
 **Results**
 
-	The result is a model that is able to classify pictures by dog breeds. If you fill in a picture of a human or a dog, it is able to detect if it is a human or a dog and in the second step it assignes the picture to a dog breed. I tested the output with some pictures from picabay.com (free to use) and the results are quite good.
+The result is a model that is able to classify pictures by dog breeds. If you fill in a picture of a human or a dog, it is able to detect if it is a human or a dog and in the second step it assignes the picture to a dog breed. I tested the output with some pictures from picabay.com (free to use) and the results are quite good.
 
 **Challenges and Learnings**
 
-	In this project I had to learn CNN from zero. I did not have any knowledge about neuronal networks but by reading articles on Wikipedia, Readme's from keras and some blogposts about the topic. I gained some knowledge and were able to generate a CNN that classifies dogs to its breeds.
+In this project I had to learn CNN from zero. I did not have any knowledge about neuronal networks but by reading articles on Wikipedia, Readme's from keras and some blogposts about the topic. I gained some knowledge and were able to generate a CNN that classifies dogs to its breeds.
 
 ** Installation Instructions**
 
