@@ -1,21 +1,54 @@
-[//]: # (Image References)
+# udacity-nanodegree-data-science-p4
+Capstone project - recognition of dog breeds
 
-[image1]: ./images/sample_dog_output.png "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+**Introduction**
+
+This is an educational project where I use Convolutional Neural Networks to detect dog breeds on pictures. Besides its educational purpost it is also entertaning, because you can also fill in pictures of humans and it will return the dog breed the person looks like.
+
+**Main Questions**
+
+The main question (or better task) of this project was to understand how Convolutional Neural Networks can be implemented in python, how keras as libary can be used and if it is possible to detect dog breeds with relatively small time consumption.
+
+**Used Libaries**
+
+The following libaries are used in the project:
+- sklearn
+- keras
+- numpy
+- glob
+- random
+- cv2
+- matplotlib
+- tqdm
+- PIL
+- extract_bottleneck_features
+
+**Architecture**
+
+The project is in a JupiterNotebook but within this notebook it is split in 8 steps:
 
 
-## Project Overview
+- Step 0: Import Datasets
+- Step 1: Detect Humans
+- Step 2: Detect Dogs
+- Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+- Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
+- Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+- Step 6: Write your Algorithm
+- Step 7: Test Your Algorithm
 
-Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Besides the jupiter notebook, there are several other data structures used which are explained in the Installation Instruktions below.
 
-![Sample Output][image1]
 
-Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
+**Results**
 
-## Project Instructions
+	The result is a model that is able to classify pictures by dog breeds. If you fill in a picture of a human or a dog, it is able to detect if it is a human or a dog and in the second step it assignes the picture to a dog breed. I tested the output with some pictures from picabay.com (free to use) and the results are quite good.
 
-### Instructions
+**Challenges and Learnings**
+
+	In this project I had to learn CNN from zero. I did not have any knowledge about neuronal networks but by reading articles on Wikipedia, Readme's from keras and some blogposts about the topic. I gained some knowledge and were able to generate a CNN that classifies dogs to its breeds.
+
+** Installation Instructions**
 
 1. Clone the repository and navigate to the downloaded folder.
 ```	
